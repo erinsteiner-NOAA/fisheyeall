@@ -1,0 +1,62 @@
+---
+title: "Resources"
+---
+
+<div class ="italic-title">
+<i>Please visit the following websites for more information.</i><br>
+</div>
+
+<div class = "body-text">
+<a
+href="http://www.pcouncil.org/groundfish/background/"
+target="_blank" >Pacific Fishery Management Council</a><br>
+
+<a
+href="http://www.westcoast.fisheries.noaa.gov/"
+target="_blank" >West Coast Regional Office</a><br>
+
+<a
+href="http://www.westcoast.fisheries.noaa.gov/fisheries/groundfish_catch_shares/"
+target="_blank">West Coast Groundfish Trawl Catch Share Program</a><br>
+
+<a
+href="http://www.nwfsc.noaa.gov/index.cfm"
+target="_blank" >Northwest Fisheries Science Center (NWFSC)</a><br>
+
+<a
+href="http://www.nwfsc.noaa.gov/research/divisions/fram/economic/index.cfm"
+target="_blank" >Economic and Social Science Research (ESSR) Program at the NWFSC</a><br>
+
+<a
+href="http://www.nwfsc.noaa.gov/research/divisions/fram/economic/overview.cfm"
+target="_blank" >Economic Data Collection (EDC) Program</a><br>
+
+<a
+href="http://www.nwfsc.noaa.gov/research/divisions/fram/economic/overview.cfm"
+target="_blank" >Economic Data Collection (EDC) Program</a><br>
+
+<a
+href="http://www.nwfsc.noaa.gov/research/divisions/fram/economic/economic_data_reports.cfm"
+target="_blank" >EDC Reports</a><br> 
+
+<a
+href="http://www.nwfsc.noaa.gov/research/divisions/fram/economic/economic_data_forms.cfm"
+target="_blank" >EDC Forms</a><br>
+
+<a
+href="http://www.nwfsc.noaa.gov/news/features/infographics/index.cfm"
+target="_blank" >Infographic describing sectors participating in the catch share program</a><br>
+
+<a
+href="http://pacfin.psmfc.org/"
+target="_blank" >Pacific Fisheries Information Network (PacFIN)</a><br>
+
+<a
+href="https://calcom.psmfc.org/regulation_main.asp"
+target="_blank" >Commercial Regulations Database - a database containing federal commercial groundfish regulations (1983-2017)</a><br>
+
+<a
+href="https://www.nwfsc.noaa.gov/assets/25/1620_08012011_142237_InputOutputModelTM111WebFinal.pdf"
+target="_blank" >West Coast impacts</a><br>
+
+</div>
