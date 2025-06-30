@@ -1,11 +1,33 @@
----
-title: "Welcome to FishEye"
----
-
-Website placeholder text 
 
 
+<div class="image-text-wrapper"> 
+  <img src="images/Vessels3.jpg" alt="Boats in a harbor" class="overlay-img">
+  <div class="overlay-text">Welcome to FISHEyE</div>
+</div>
 
-[Performance Metrics App](https://connect.fisheries.noaa.gov/WestCoastCatchShares/)
 
-[Whiting App](https://connect.fisheries.noaa.gov/Whiting/)
+<br>
+
+::: {.large-text}
+*"A set of tools for exploring data for the West Coast Groundfish Trawl Catch Share program. The data were collected by the NWFSC Economics and Social Science Program and include data from the Economic Data Collection Program, the NWFSC Pacific Coast Groundfish Social Science Survey. PacFIN data are also incorporated into the data tools."*
+
+:::
+
+<br>
+
+
+
+
+<div style="display: flex; gap: 2em; justify-content: center; align-items: center;">
+
+
+  <a href="https://connect.fisheries.noaa.gov/WestCoastCatchShares/" style="text-align: center;">
+    <img src="images/perfmetricsbutton.png" alt="Performance Metrics app link button" width="200">
+  </a>
+  
+  <a href="https://connect.fisheries.noaa.gov/Whiting/" style="text-align: center;">
+    <img src="images/whitingbutton.png" alt="Whiting App link button" width="200">
+  </a>
+
+
+</div>
