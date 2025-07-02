@@ -2,9 +2,7 @@
 title: "Resources"
 ---
 
-***
-
-*Please visit the following websites for more information:*
+<span style="font-size: 1.3em; font-style: italic;">Please visit the following websites for more information:</span>
 
 - [Pacific Fishery Management Council](http://www.pcouncil.org/groundfish/background/)
 

@@ -20,9 +20,9 @@ website:
         text: "Resources"
       - text: "Contact"
         menu:
-          - icon: envelope-fill
-            text: "Email us"
-            href: mailto:nwfsc.edc@noaa.gov?subject=FISHEyE
+          - text: "Email us"
+            icon: envelope-fill
+            href: "mailto:nwfsc.edc@noaa.gov?subject=FISHEyE"
   page-footer:
     left:
       - href: https://www.fisheries.noaa.gov/region/west-coast/northwest-science
