@@ -26,32 +26,15 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
-  "copy-button": false,
-  "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -78,13 +61,12 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./www/images/noaalogo.png" alt="" class="navbar-logo">
+    <img src="./images/NOAA_FISHERIES_logoH.png" alt="NOAA Fisheries logo" class="navbar-logo">
     </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">FISHEyE</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
@@ -106,10 +88,18 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./resources.html"> 
 <span class="menu-text">Resources</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./contact.html"> 
-<span class="menu-text">Contact</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-contact" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Contact</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-contact">    
+        <li>
+    <a class="dropdown-item" href="mailto:nwfsc.edc@noaa.gov?subject=FISHEyE"><i class="bi bi-envelope-fill" role="img">
+</i> 
+ <span class="dropdown-text">Email us</span></a>
   </li>  
+    </ul>
+  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -144,41 +134,44 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<hr>
-<p>Welcome to Fisheries Economics Explorer (<strong>FISHEyE</strong>), an interactive tool for exploring data from the West Coast Groundfish Trawl Catch Share Program. FISHEyE provides metrics to track and evaluate the catch share program. The metrics are not intended to be interpreted as causal, directional, nor normative but, rather, to facilitate the examination of trends and changes. Data used in FISHEyE comes from the Economic Data Collection <a href="https://www.nwfsc.noaa.gov/research/divisions/fram/economic/overview.cfm" target="_blank">(EDC)</a></p>
-<p>Program and the Pacific Fisheries Information Network (<a href="http://pacfin.psmfc.org/">PacFIN</a>)</p>
-<p>As part of the catch share program, participants of the fishery are required to complete <a href="https://www.nwfsc.noaa.gov/research/divisions/fram/economic/overview.cfm">EDC survey forms</a> as stated in <a href="http://www.ecfr.gov/cgi-bin/text-idx?SID=06f0c396e52e564ce22a048aa910f49f&amp;node=50:13.0.1.1.1.4.1.5&amp;rgn=div8">regulation 50 CFS 660.114</a></p>
-<p>Data collection began in 2009, two years prior to implementing the catch share program. All vessels that participate in the catch share program must report data for all fisheries they participate in, including non-catch share fisheries.</p>
+<div class="image-text-wrapper">
+<p><img src="images/Vessels1.jpg" alt="Boats in a harbor" class="overlay-img"></p>
+</div>
+<p>Welcome to Fisheries Economics Explorer (<strong>FISHEyE</strong>), an interactive tool for exploring data from the West Coast Groundfish Trawl Catch Share Program. FISHEyE provides metrics to track and evaluate the catch share program. The metrics are not intended to be interpreted as causal, directional, nor normative but, rather, to facilitate the examination of trends and changes. Data used in FISHEyE comes from the Economic Data Collection <a href="https://www.nwfsc.noaa.gov/research/divisions/fram/economic/overview.cfm" target="_blank">(EDC)</a> Program and the Pacific Fisheries Information Network (<a href="http://pacfin.psmfc.org/">PacFIN</a>).</p>
+<p>As part of the catch share program, participants of the fishery are required to complete <a href="https://www.nwfsc.noaa.gov/research/divisions/fram/economic/overview.cfm">EDC survey forms</a> as stated in <a href="http://www.ecfr.gov/cgi-bin/text-idx?SID=06f0c396e52e564ce22a048aa910f49f&amp;node=50:13.0.1.1.1.4.1.5&amp;rgn=div8">regulation 50 CFS 660.114</a> Data collection began in 2009, two years prior to implementing the catch share program. All vessels that participate in the catch share program must report data for all fisheries they participate in, including non-catch share fisheries.</p>
 <p><br></p>
 <section id="west-coast-groundfish-trawl-catch-share-fishery" class="level3">
-<h3 class="anchored" data-anchor-id="west-coast-groundfish-trawl-catch-share-fishery">West Coast Groundfish Trawl Catch Share Fishery</h3>
+<h3 data-anchor-id="west-coast-groundfish-trawl-catch-share-fishery">West Coast Groundfish Trawl Catch Share Fishery</h3>
 <hr>
 <p>The fishery consists of cooperatives for the at-sea mothership and catcher-processor fleets, and an individual fishing quota (IFQ) program for the shorebased trawl fleet (catcher vessels, and first receivers and shorebased processors). The catch share program was implemented in 2011 with several goals, including:</p>
+<p><img src="images/Working.jpg" class="float-right-image" alt="Fishermen working in the evening"></p>
 <ul>
 <li><p>Provide for a viable, profitable, and efficient groundfish fishery;</p></li>
 <li><p>Increase operational flexibility;</p></li>
 <li><p>Minimize adverse effects on fishing communities and other fisheries to the extent practical;</p></li>
 <li><p>Promote measurable economic and employment benefits through the seafood catching, processing, distribution, and support sectors of the industry.</p></li>
 </ul>
-<p>Please refer to the links in the Resources section for more detailed information about the fishery.</p>
+<p>Please refer to the links in the <a href="./resources.html">Resources</a> section for more detailed information about the fishery.</p>
 <p><br></p>
 </section>
 <section id="confidentiality" class="level3">
-<h3 class="anchored" data-anchor-id="confidentiality">Confidentiality</h3>
+<h3 data-anchor-id="confidentiality">Confidentiality</h3>
 <hr>
-<p>Data confidentiality requirements do not allow us to show individual observations. Therefore, we aggregate or summarize the data to protect individual confidentiality. Data queries that would display confidential data are not plotted or made available to download. In these cases, the number of observations will be shown in the data table, but the value will be shown as “NA”.</p>
+<p>Data confidentiality requirements do not allow us to show individual observations. Therefore, we aggregate or summarize the data to protect individual confidentiality. Data queries that would display confidential data are not plotted or made available to download. In these cases, the number of observations will be shown in the data table, but the value will be shown as <code>NA</code>.</p>
 <p>Where possible, data are reported for all vessels combined, whiting vessels, and non-whiting vessels. If there are fewer than three vessels in either the whiting or non-whiting category we will only report the “All vessels” category. More information on data confidentiality requirements can be found in the <a href="http://www.nwfsc.noaa.gov/research/divisions/fram/documents/Administration_Operations_Report_2014.pdf">EDC Administration and Operations Report</a></p>
 <p><br></p>
 </section>
 <section id="disclaimer" class="level3">
-<h3 class="anchored" data-anchor-id="disclaimer">Disclaimer</h3>
+<h3 data-anchor-id="disclaimer">Disclaimer</h3>
 <hr>
-<p>The data used in this application are periodically updated and subject to change. Data updates are recorded in the FISHEyE blog.</p>
-<p>This repository is a scientific product and is not official communication of the National Oceanic and Atmospheric Administration, or the United States Department of Commerce. All NOAA GitHub project code is provided on an ‘as is’ basis and the user assumes responsibility for its use. Any claims against the Department of Commerce or Department of Commerce bureaus stemming from the use of this GitHub project will be governed by all applicable Federal law. Any reference to specific commercial products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply their endorsement, recommendation or favoring by the Department of Commerce. The Department of Commerce seal and logo, or the seal and logo of a DOC bureau, shall not be used in any manner to imply endorsement of any commercial product or activity by DOC or the United States Government.</p>
+<ol type="1">
+<li><p>The data used in this application are periodically updated and subject to change. Data updates are recorded in the FISHEyE blog.</p></li>
+<li><p>This repository is a scientific product and is not official communication of the National Oceanic and Atmospheric Administration, or the United States Department of Commerce. All NOAA GitHub project code is provided on an ‘as is’ basis and the user assumes responsibility for its use. Any claims against the Department of Commerce or Department of Commerce bureaus stemming from the use of this GitHub project will be governed by all applicable Federal law. Any reference to specific commercial products, processes, or services by service mark, trademark, manufacturer, or otherwise, does not constitute or imply their endorsement, recommendation or favoring by the Department of Commerce. The Department of Commerce seal and logo, or the seal and logo of a DOC bureau, shall not be used in any manner to imply endorsement of any commercial product or activity by DOC or the United States Government.</p></li>
+</ol>
 <p><br></p>
 </section>
 <section id="acknowledgements" class="level3">
-<h3 class="anchored" data-anchor-id="acknowledgements">Acknowledgements</h3>
+<h3 data-anchor-id="acknowledgements">Acknowledgements</h3>
 <hr>
 <p>There are numerous individuals to thank for their contributions in developing FISHEyE. We thank the Northwest Fisheries Science Center (NWFSC) economists and application developers, Scientific Data Management staff, and Information Technology staff. We thank PacFIN for providing landings information. NMFS Office of Science and Technology and NMFS Office of Sustainable Fisheries provided support. Numerous individuals reviewed the application and we thank them for their helpful comments and suggestions. Finally and very importantly, we thank the members of the West Coast fishing industry who have supplied information to the EDC Program.</p>
 
@@ -206,13 +199,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -292,6 +278,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         if (link.dataset.originalHref !== undefined) {
           link.href = link.dataset.originalHref;
         }
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
       }
     }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
@@ -610,13 +601,47 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© NOAA Fisheries 2025</p>
-</div>   
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="https://www.fisheries.noaa.gov/region/west-coast/northwest-science">
+<p>NWFSC</p>
+</a>
+  </li>  
+    <li class="nav-item">
+ |
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://www.fisheries.noaa.gov/">
+<p>NOAA Fisheries</p>
+</a>
+  </li>  
+    <li class="nav-item">
+ |
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://www.noaa.gov/">
+<p>NOAA</p>
+</a>
+  </li>  
+    <li class="nav-item">
+ |
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://www.fisheries.noaa.gov/about-us/privacy-policy">
+<p>NOAA privacy policy</p>
+</a>
+  </li>  
+</ul>
+    </div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>
     <div class="nav-footer-right">
-      &nbsp;
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+ © NOAA Fisheries 2025
+  </li>  
+</ul>
     </div>
   </div>
 </footer>

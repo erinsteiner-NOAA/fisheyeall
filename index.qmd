@@ -1,33 +1,40 @@
-
+---
+---
 
 <div class="image-text-wrapper"> 
   <img src="images/Vessels3.jpg" alt="Boats in a harbor" class="overlay-img">
   <div class="overlay-text">Welcome to FISHEyE</div>
+  <div class="subheading">Fisheries Economic Explorer</div>
 </div>
 
 
 <br>
 
+***
+
 ::: {.large-text}
-*"A set of tools for exploring data for the West Coast Groundfish Trawl Catch Share program. The data were collected by the NWFSC Economics and Social Science Program and include data from the Economic Data Collection Program, the NWFSC Pacific Coast Groundfish Social Science Survey. PacFIN data are also incorporated into the data tools."*
+*"A set of tools for exploring data for the West Coast Groundfish Trawl Catch Share program. The data were collected by the [Northwest Fisheries Science Center (NWFSC)](https://www.fisheries.noaa.gov/region/west-coast/northwest-science) Economics and Social Science Program and include data from the Economic Data Collection Program, the NWFSC Pacific Coast Groundfish Social Science Survey. PacFIN data are also incorporated into the data tools."*
 
 :::
 
+
+***
+
+
 <br>
 
+<p style="text-align: center; font-size: 1.7em;">
+  Explore FISHEyE apps
+</p>
 
 
 
-<div style="display: flex; gap: 2em; justify-content: center; align-items: center;">
+<div class="button-row">
+<a href="https://connect.fisheries.noaa.gov/WestCoastCatchShares/" class="app-button-link"><div class="app-button"><p>Performance Metrics</p><i class="bi bi-chevron-right" style="font-size: 2.5rem;"></i></div></a>
 
-
-  <a href="https://connect.fisheries.noaa.gov/WestCoastCatchShares/" style="text-align: center;">
-    <img src="images/perfmetricsbutton.png" alt="Performance Metrics app link button" width="200">
-  </a>
+  <a href="https://connect.fisheries.noaa.gov/Whiting/" class="app-button-link">
+  <div class="app-button"><p>Whiting</p><i class="bi bi-chevron-right" style="font-size: 2.5rem;"></i></div></a>
   
-  <a href="https://connect.fisheries.noaa.gov/Whiting/" style="text-align: center;">
-    <img src="images/whitingbutton.png" alt="Whiting App link button" width="200">
-  </a>
-
-
+  <div class="app-button"><p>Purchase & Production</p><i class="bi bi-chevron-right" style="font-size: 2.5rem;"></i></div>
 </div>
+

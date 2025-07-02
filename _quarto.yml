@@ -4,10 +4,10 @@ project:
 
 website:
   title: "FISHEyE"
-  page-navigation: true
+  search: FALSE
   navbar:
-    search: FALSE
-    logo: "www/images/noaalogo.png"
+    logo: "images/NOAA_FISHERIES_logoH.png"
+    logo-alt: "NOAA Fisheries logo"
     pinned: FALSE
     right:
       - href: index.qmd
@@ -18,13 +18,31 @@ website:
         text: "Literature"
       - href: resources.qmd
         text: "Resources"
-      - href: contact.qmd
-        text: "Contact"
+      - text: "Contact"
+        menu:
+          - icon: envelope-fill
+            text: "Email us"
+            href: mailto:nwfsc.edc@noaa.gov?subject=FISHEyE
   page-footer:
-    left: "&copy; NOAA Fisheries 2025"
+    left:
+      - href: https://www.fisheries.noaa.gov/region/west-coast/northwest-science
+        text: "NWFSC"
+      - text: "|"
+      - href: https://www.fisheries.noaa.gov/
+        text: 'NOAA Fisheries'
+      - text: "|"
+      - href: https://www.noaa.gov/
+        text: "NOAA"
+      - text: "|"
+      - href: https://www.fisheries.noaa.gov/about-us/privacy-policy
+        text: "NOAA privacy policy"
+    right:
+      - "&copy; NOAA Fisheries 2025"
 
 format:
   html:
+    anchor-sections: FALSE
+    link-external-newwindow: true
     theme:
       - cosmo
       - styles.scss

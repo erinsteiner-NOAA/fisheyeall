@@ -2,7 +2,9 @@
 title: "Literature"
 ---
 
-***
+<div class="image-text-wrapper"> 
+  <img src="images/Vessels2.jpg" alt="Boats in a harbor" class="overlay-img">
+</div>
 
 - [Brinson, A.A. and E. M. Thunberg. 2013.](https://repository.library.noaa.gov/view/noaa/4601)The Economic Performance of U.S. Catch Share Programs. U.S. Department of Commerce, NOAA Technical Memorandum NMFS-NWFSC.
 
@@ -65,7 +67,7 @@ Evaluating the Economic Performance of the U.S. West Coast Groundfish Trawl Catc
 <br>
 
 
-*Additional reports*
+<span style="font-size: 1.3em; font-style: italic;">Additional reports</span>
 
    - [West Coast Groundfish Trawl Catch Share Program: Five Year Review](https://www.pcouncil.org/documents/2017/01/trawl-catch-share-review-main-document.pdf/)
 
