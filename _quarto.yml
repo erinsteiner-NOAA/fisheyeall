@@ -1,6 +1,11 @@
 project:
   type: website
-  output-dir: _site
+  output-dir: docs
+  render:
+    - "*.qmd"
+    - "! purcprod/"
+    - "! whiting/"
+    - "! PerformanceMetrics/"
 
 website:
   title: "FISHEyE"
@@ -41,6 +46,7 @@ website:
 
 format:
   html:
+    self-contained: true
     anchor-sections: FALSE
     link-external-newwindow: true
     theme:
@@ -51,7 +57,6 @@ format:
     google-fonts:
       - Montserrat
     toc: FALSE
-
 
 
 
