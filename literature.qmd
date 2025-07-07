@@ -67,7 +67,7 @@ Evaluating the Economic Performance of the U.S. West Coast Groundfish Trawl Catc
 <br>
 
 
-<span style="font-size: 1.3em; font-style: italic;">Additional reports</span>
+<span style="font-size: 1.3em; font-weight: bold;">Additional reports</span>
 
    - [West Coast Groundfish Trawl Catch Share Program: Five Year Review](https://www.pcouncil.org/documents/2017/01/trawl-catch-share-review-main-document.pdf/)
 

@@ -25,7 +25,7 @@ website:
         text: "Resources"
       - text: "Contact"
         menu:
-          - text: "Email us"
+          - text: "nwfsc.edc@noaa.gov"
             icon: envelope-fill
             href: "mailto:nwfsc.edc@noaa.gov?subject=FISHEyE"
   page-footer:

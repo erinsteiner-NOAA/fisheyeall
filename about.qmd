@@ -23,13 +23,13 @@ The fishery consists of cooperatives for the at-sea mothership and catcher-proce
 <img src="images/Working.jpg" class = "float-right-image" alt="Fishermen working in the evening">
 
 
--   Provide for a viable, profitable, and efficient groundfish fishery;
+-   Provide for a viable, profitable, and efficient groundfish fishery
 
--   Increase operational flexibility;
+-   Increase operational flexibility
 
--   Minimize adverse effects on fishing communities and other fisheries to the extent practical;
+-   Minimize adverse effects on fishing communities and other fisheries to the extent practical
 
--   Promote measurable economic and employment benefits through the seafood catching, processing, distribution, and support sectors of the industry.
+-   Promote measurable economic and employment benefits through the seafood catching, processing, distribution, and support sectors of the industry
 
 
 Please refer to the links in the [Resources](resources.qmd) section for more detailed information about the fishery.
@@ -40,9 +40,7 @@ Please refer to the links in the [Resources](resources.qmd) section for more det
 
 ***
 
-Data confidentiality requirements do not allow us to show individual observations. Therefore, we aggregate or summarize the data to protect individual confidentiality. Data queries that would display confidential data are not plotted or made available to download. In these cases, the number of observations will be shown in the data table, but the value will be shown as `NA`.
-
-Where possible, data are reported for all vessels combined, whiting vessels, and non-whiting vessels. If there are fewer than three vessels in either the whiting or non-whiting category we will only report the “All vessels” category. More information on data confidentiality requirements can be found in the [EDC Administration and Operations Report](http://www.nwfsc.noaa.gov/research/divisions/fram/documents/Administration_Operations_Report_2014.pdf)
+Data confidentiality requirements do not allow us to show individual observations. Therefore, we aggregate or summarize the data to protect individual confidentiality. Data queries that would display confidential data are not plotted or made available to download. In these cases, the number of observations will be shown in the data table, but the value will be shown as `NA`. Where possible, data are reported for all vessels combined, whiting vessels, and non-whiting vessels. If there are fewer than three vessels in either the whiting or non-whiting category we will only report the “All vessels” category. More information on data confidentiality requirements can be found in the [EDC Administration and Operations Report](http://www.nwfsc.noaa.gov/research/divisions/fram/documents/Administration_Operations_Report_2014.pdf)
 
 <br>
 
