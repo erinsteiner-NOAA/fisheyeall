@@ -1,5 +1,5 @@
 ---
-title: "About"
+title: "About FISHEyE"
 ---
 
 
@@ -7,7 +7,7 @@ title: "About"
   <img src="images/Vessels1.jpg" alt="Boats in a harbor" class="overlay-img">
 </div>
 
-Welcome to Fisheries Economics Explorer (**FISHEyE**), an interactive tool for exploring data from the West Coast Groundfish Trawl Catch Share Program. FISHEyE provides metrics to track and evaluate the catch share program. The metrics are not intended to be interpreted as causal, directional, nor normative but, rather, to facilitate the examination of trends and changes. Data used in FISHEyE comes from the Economic Data Collection <a href="https://www.nwfsc.noaa.gov/research/divisions/fram/economic/overview.cfm" target="_blank">(EDC)</a> Program and the Pacific Fisheries Information Network ([PacFIN](http://pacfin.psmfc.org/)).
+FISHEyE is an interactive tool for exploring data from the West Coast Groundfish Trawl Catch Share Program. It provides metrics to track and evaluate the catch share program. The metrics are not intended to be interpreted as causal, directional, nor normative but, rather, to facilitate the examination of trends and changes. Data used in FISHEyE comes from the Economic Data Collection <a href="https://www.nwfsc.noaa.gov/research/divisions/fram/economic/overview.cfm" target="_blank">(EDC)</a> Program and the Pacific Fisheries Information Network ([PacFIN](http://pacfin.psmfc.org/)).
 
 As part of the catch share program, participants of the fishery are required to complete [EDC survey forms](https://www.nwfsc.noaa.gov/research/divisions/fram/economic/overview.cfm) as stated in [regulation 50 CFS 660.114](http://www.ecfr.gov/cgi-bin/text-idx?SID=06f0c396e52e564ce22a048aa910f49f&node=50:13.0.1.1.1.4.1.5&rgn=div8) Data collection began in 2009, two years prior to implementing the catch share program. All vessels that participate in the catch share program must report data for all fisheries they participate in, including non-catch share fisheries.
 
